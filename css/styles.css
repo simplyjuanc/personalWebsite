@@ -1,65 +1,138 @@
 body {
-    margin: 0;
-    padding: 20px;
+  margin: 0;
+  text-align: center;
 }
 
 h1 {
-    color: #66BFBF  ;
-    font-size: 5rem;
-    margin-top: 3rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #66BFBF;
+  font-size: 5rem;
+  margin-top: 3rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h2 {
-    color: #66BFBF;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: normal;
-    line-height: 2;
+  color: #66BFBF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
 h3 {
-    color: #11999E;
+  color: #11999E;
+  margin-top: 2.5rem;
 }
 
 a {
-    color: #11999E;
+  color: #11999E;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 hr {
-    border-style: dotted hidden hidden hidden;
-    border-width: thick;
-    border-color: gray;
-    width: 15%;
+  border-style: dotted hidden hidden hidden;
+  border-width: thick;
+  border-color: gray;
+  width: 15%;
 }
 
 ul {
-    font-family: Tahoma,Verdana,Segoe,sans-serif;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
-.bottom-container {
-    background-color: brown;
-
+.top-container {
+  padding: 20px;
+  margin-top: 4rem;
+  height: 80vh;
+  vertical-align: middle;
 }
 
 .middle-container {
-    background-color:teal;
-    align-content: center;
+  background-color: teal;
+  align-content: center;
+  padding: 20px;
+  margin-top: 3em;
+}
 
+.bottom-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
 }
 
 .skill-row {
-    display: inline-block;
-    width: 50%;
-    align-items: center;
+  display: block;
+  width: 50%;
+  align-items: center;
+  margin: 2.5rem auto 2.5rem auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img-left {
+  width: 25%;
+  float: left;
+  margin-right: 2em;
+}
+
+.skill-img-right {
+  width: 25%;
+  float: right;
+  margin-left: 2em;
+}
+
+.footer-link {
+  margin: auto 2em auto 2em;
+}
+
+.experience {
+  margin-bottom: 4em;
+}
+
+.skills {
+  margin-top: 3em;
+}
+
+.contact-me {
+  margin-top: 3em;
+}
+
+.welcome-header {
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: #11999E;
 }
 
 #nav-bar {
-    background-color: black;
-    color: #ffffff;
-    padding: 15px 0 15px 0;
+  display: grid;
+  /* grid-template-columns: 3fr 7fr; */
+  grid-template-rows: 4rem;
+  padding-right: 30px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#nav-navigation {
+  list-style-type: none;
+  padding: 0;
+  margin: auto 100px auto 100px;
+  display: flex;
+  justify-content: space-between;
+  background: black;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+  margin: 5%
+}
+
+#nav-bar {
+  background-color: black;
+  color: #ffffff;
+  padding: 15px 0 15px 0;
 }
