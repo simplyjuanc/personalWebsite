@@ -72,7 +72,7 @@ ul {
 
 .skill-row {
     display: block;
-    width: 50%;
+    max-width: 90%;
     align-items: center;
     margin: 2.5rem auto 2.5rem auto;
     text-align: left;
