@@ -43,9 +43,12 @@ ul {
 
 .top-container {
     padding: 20px;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     height: 100vh;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .middle-container {
@@ -158,6 +161,7 @@ ul {
     background-color: black;
     color: #ffffff;
     padding: 15px 0 15px 0;
+    height: inherit;
 }
 
 #nav-navigation {
@@ -165,13 +169,18 @@ ul {
     padding: 0;
     margin: auto 100px auto 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: black;
+}
+
+.nav-link {
+    height: inherit;
 }
 
 #profile-pic {
     border-radius: 50%;
-    width: 20%;
-    height: auto;
-    margin: 5%
+    max-height: 30vh;
+    width: auto;
+    margin: 5%;
+    align-self: center;
 }
