@@ -139,6 +139,12 @@ ul {
     margin-bottom: 4em;
 }
 
+.xp-accomplishments {
+    /* list-style-type: circle; */
+    text-align: left;
+    /* display: inline-block; */
+}
+
 .contact-me {
     margin-top: 3em;
 }
