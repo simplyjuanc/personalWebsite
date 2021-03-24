@@ -87,24 +87,22 @@ ul {
     align-items: center;
 }
 
-.skill-img-left {
+.skill-img-left,
+.skill-img-right {
     max-width: 200px;
     height: auto;
-    float: left;
     margin-right: 3em;
     margin-right: 3em;
     flex-shrink: 2;
     object-fit: scale-down;
 }
 
+.skill-img-left {
+    float: left;
+}
+
 .skill-img-right {
-    max-width: 200px;
-    height: auto;
     float: right;
-    margin-left: 3em;
-    margin-right: 3em;
-    flex-shrink: 2;
-    object-fit: scale-down;
 }
 
 .skill-title-cont {
