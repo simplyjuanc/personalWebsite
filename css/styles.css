@@ -41,6 +41,10 @@ ul {
     font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
+li {
+    padding-top: 1em;
+}
+
 .top-container {
     padding: 20px;
     /* margin-top: 4rem; */
@@ -133,14 +137,24 @@ ul {
     margin: auto 2em auto 2em;
 }
 
-.experience {
+.experience-section {
     margin-bottom: 4em;
+}
+
+.xp-base {
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+    /* line-height: 2; */
 }
 
 .xp-accomplishments {
     /* list-style-type: circle; */
     text-align: left;
     /* display: inline-block; */
+    /* position: absolute; */
+    left: 25%;
+    width: fit-content;
 }
 
 .contact-me {
