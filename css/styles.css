@@ -55,11 +55,20 @@ li {
     align-items: center;
 }
 
-.middle-container {
-    background-color: teal;
+.middle-container,
+.middle-container-alt {
     align-content: center;
     padding: 20px;
-    margin-top: 3em;
+}
+
+.middle-container {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.middle-container-alt {
+    background-color: teal;
+    color: black;
 }
 
 .bottom-container {
@@ -78,7 +87,7 @@ li {
 }
 
 .skills-hard,
-.skills-sfoft {
+.skills-soft {
     align-items: center;
 }
 
