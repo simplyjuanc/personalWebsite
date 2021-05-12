@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #B83200;
+    font-size: 5rem;
+    margin-top: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #31E4EB;
+    margin-top: 2.5rem;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dfd7d7;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #200c05;
+}
+
+hr {
+    border-style: dotted hidden hidden hidden;
+    border-width: thick;
+    border-color: #9b9292e5;
+    width: 25%;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    bottom: -22px;
+}
+
+ul {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+li {
+    padding-top: 1em;
+}
+
+.top-container {
+    margin-top: 4rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container,
+.middle-container,
+.middle-container-alt {
+    align-content: center;
+    padding: 20px;
+}
+
+.middle-container {
+    background-color: #000000;
+    color: #ffffffd4;
+}
+
+.middle-container-alt {
+    background-color: #008080;
+    color: #000000;
+}
+
+.bottom-container {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.skills {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-flow: wrap;
+}
+
+.skills-hard,
+.skills-soft {
+    align-items: center;
+}
+
+.skill-row {
+    max-width: 90%;
+    align-items: center;
+    margin: 2.5rem auto 2.5rem auto;
+    text-align: left;
+    line-height: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill-img-left,
+.skill-img-right {
+    max-width: 200px;
+    height: auto;
+    margin-right: 3em;
+    margin-right: 3em;
+    flex-shrink: 2;
+    object-fit: scale-down;
+}
+
+.skill-img-left {
+    float: left;
+}
+
+.skill-img-right {
+    float: right;
+}
+
+.skill-title-cont {
+    max-height: initial;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-level {
+    max-width: 100%;
+    max-height: auto;
+    height: auto;
+    width: auto;
+    flex: 0 4 auto;
+    display: flex;
+}
+
+.skill-level-circle {
+    flex: 0 4 auto;
+    object-fit: scale-down;
+}
+
+.footer-link {
+    margin: auto 2em auto 2em;
+    max-width: 64px;
+    height: auto;
+}
+
+.experience-section {
+    margin-bottom: 4em;
+}
+
+.xp-base {
+    text-align: center;
+    width: 55vw;
+    margin: auto;
+    line-height: 1.25;
+}
+
+.xp-accomplishments {
+    /* list-style-type: circle; */
+    text-align: left;
+    /* display: inline-block; */
+    /* position: absolute; */
+    left: 25%;
+    width: fit-content;
+}
+
+.btn {
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #00568c);
+    background-image: -moz-linear-gradient(top, #11999E, #00568c);
+    background-image: -ms-linear-gradient(top, #11999E, #00568c);
+    background-image: -o-linear-gradient(top, #11999E, #00568c);
+    background-image: linear-gradient(to bottom, #11999E, #00568c);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #1937cc);
+    background-image: -moz-linear-gradient(top, #000000, #1937cc);
+    background-image: -ms-linear-gradient(top, #000000, #1937cc);
+    background-image: -o-linear-gradient(top, #000000, #1937cc);
+    background-image: linear-gradient(to bottom, #000000, #1937cc);
+    text-decoration: none;
+}
+
+.welcome-header {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #B83200;
+}
+
+#nav-bar {
+    display: grid;
+    /* grid-template-columns: 3fr 7fr; */
+    grid-template-rows: 4rem;
+    padding-right: 30px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    padding: 15px 0 15px 0;
+    height: inherit;
+}
+
+#nav-navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: auto 100px auto 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+}
+
+.nav-link {
+    height: inherit;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    max-height: 30vh;
+    width: auto;
+    margin: 5%;
+    align-self: center;
+}
