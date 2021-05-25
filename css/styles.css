@@ -88,19 +88,13 @@ li {
     text-decoration: none;
 }
 
-nav {
-    display: grid;
-    /* grid-template-columns: 3fr 7fr; */
-    grid-template-rows: 4rem;
-    padding-right: 30px;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: black;
-    color: #ffffff;
-    padding: 15px 0 15px 0;
-    height: inherit;
+
+.welcome-header {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #B83200;
+}
+
 }
 
 #nav-navigation {
