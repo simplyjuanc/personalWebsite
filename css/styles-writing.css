@@ -1,0 +1,17 @@
+.top-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-container {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.post {
+    background-color: darkblue;
+}
