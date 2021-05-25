@@ -1,0 +1,130 @@
+.welcome-header {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #B83200;
+}
+
+.top-container,
+.middle-container,
+.middle-container-alt {
+    align-content: center;
+    padding: 20px;
+}
+
+.top-container {
+    margin-top: 4rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-container {
+    background-color: #000000;
+    color: #ffffffd4;
+}
+
+.middle-container-alt {
+    background-color: #008080;
+    color: #000000;
+}
+
+.bottom-container {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.skills {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-flow: wrap;
+}
+
+.skills-hard,
+.skills-soft {
+    align-items: center;
+}
+
+.skill-row {
+    max-width: 90%;
+    align-items: center;
+    margin: 2.5rem auto 2.5rem auto;
+    text-align: left;
+    line-height: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill-img-left,
+.skill-img-right {
+    max-width: 200px;
+    height: auto;
+    margin-right: 3em;
+    margin-right: 3em;
+    flex-shrink: 2;
+    object-fit: scale-down;
+}
+
+.skill-img-left {
+    float: left;
+}
+
+.skill-img-right {
+    float: right;
+}
+
+.skill-title-cont {
+    max-height: initial;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-level {
+    max-width: 100%;
+    max-height: auto;
+    height: auto;
+    width: auto;
+    flex: 0 4 auto;
+    display: flex;
+}
+
+.skill-level-circle {
+    flex: 0 4 auto;
+    object-fit: scale-down;
+}
+
+.experience-section {
+    margin-bottom: 4em;
+}
+
+.xp-base {
+    text-align: center;
+    width: 55vw;
+    margin: auto;
+    line-height: 1.25;
+}
+
+.xp-accomplishments {
+    /* list-style-type: circle; */
+    text-align: left;
+    /* display: inline-block; */
+    /* position: absolute; */
+    left: 25%;
+    width: fit-content;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    max-height: 30vh;
+    width: auto;
+    margin: 5%;
+    align-self: center;
+}
