@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    text-align: center;
+    /* text-align: center; */
 }
 
 h1 {
@@ -33,7 +33,7 @@ a:hover {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    color: #200c05;
+    /* color: #200c05; */
 }
 
 hr {
@@ -53,6 +53,15 @@ ul {
 
 li {
     padding-top: 1em;
+}
+
+footer {
+    /* align-content: center; */
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 
 .footer-link {
@@ -88,6 +97,12 @@ li {
     text-decoration: none;
 }
 
+.welcome-header {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #B83200;
+}
+
 nav {
     display: grid;
     /* grid-template-columns: 3fr 7fr; */
@@ -118,4 +133,11 @@ nav {
 
 .nav-link-a {
     font-weight: bold;
+}
+
+.top-container,
+.middle-container,
+.middle-container-alt {
+    /* align-content: center; */
+    padding: 20px;
 }
