@@ -8,7 +8,6 @@
 .middle-container,
 .middle-container-alt {
     align-content: center;
-    padding: 20px;
 }
 
 .top-container {
@@ -28,12 +27,6 @@
 .middle-container-alt {
     background-color: #008080;
     color: #000000;
-}
-
-.bottom-container {
-    background-color: black;
-    color: white;
-    padding: 20px;
 }
 
 .skills {
@@ -119,6 +112,10 @@
     /* position: absolute; */
     left: 25%;
     width: fit-content;
+}
+
+.contact-me {
+    text-align: center;
 }
 
 #profile-pic {
