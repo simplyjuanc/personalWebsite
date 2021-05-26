@@ -33,7 +33,7 @@ a:hover {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    color: #200c05;
+    /* color: #200c05; */
 }
 
 hr {
@@ -53,6 +53,14 @@ ul {
 
 li {
     padding-top: 1em;
+}
+
+footer {
+    align-content: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 
 .footer-link {

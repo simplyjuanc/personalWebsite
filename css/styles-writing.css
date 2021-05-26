@@ -6,12 +6,20 @@
     align-items: left;
 }
 
+
+/* 
 .bottom-container {
     background-color: black;
     color: white;
     padding: 20px;
-}
+} */
 
 .post {
-    background-color: darkblue;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.blog-title {
+    background-color: inherit;
+    color: #ffffff;
 }
