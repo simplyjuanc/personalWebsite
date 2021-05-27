@@ -21,6 +21,12 @@
     /* margin-bottom: 0; */
 }
 
+.publish-date {
+    font-style: italic;
+    font-size: 0.75rem;
+    margin-top: -10px;
+}
+
 .blog-summary {
     font-size: 0.95rem;
     /* margin-bottom: 0rem; */
